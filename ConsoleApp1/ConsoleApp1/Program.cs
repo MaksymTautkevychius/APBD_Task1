@@ -12,8 +12,8 @@ namespace Main
                 sum += vals[i];
             }
 
-            int avg = sum / vals.Length;
-            return avg;
+            int avgard = sum / vals.Length;
+            return avgard;
          }
 
          static int max(int[] vals)

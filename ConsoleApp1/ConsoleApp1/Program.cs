@@ -6,14 +6,19 @@ namespace Main
     {
          static int Avg(int[] vals)
          {
-             int sum=0;
+             int suma=0;
             for (int i = 0; i < vals.Length; i++)
             {
-                sum += vals[i];
+                suma += vals[i];
             }
 
+<<<<<<< HEAD
             int avgard = sum / vals.Length;
             return avgard;
+=======
+            int avg = suma / vals.Length;
+            return avg;
+>>>>>>> feature-new
          }
 
          static int max(int[] vals)
